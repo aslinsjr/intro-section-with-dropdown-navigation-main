@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+        <img src="images/logo.svg" alt="Logo">
+        <div class="all-links">
+          <div class="content-links">
+            <div class="drop-link" id="feature-dropdown">
+              <p class="hover-event">Features</p>
+              <img id="feature-dropdown-arrow" src="images/icon-arrow-down.svg" alt="Arrow Down">
+            </div>
+            <div class="feature-links hide">
+              <div class="links">
+                <img src="images/icon-todo.svg" alt="To Do Icon">
+                <a href="#">Todo List</a>
+              </div>
+              <div class="links">
+                <img src="images/icon-calendar.svg" alt="Calendar Icon">
+                <a href="#">Calendar</a>
+              </div>
+              <div class="links">
+                <img src="images/icon-reminders.svg" alt="Reminders Icon">
+                <a href="#">Reminders</a>
+              </div>
+              <div class="links">
+                <img src="images/icon-planning.svg" alt="Planning Icon">
+                <a href="#">Planning</a>
+              </div>
+            </div>
+            <div class="drop-link" id="company-dropdown">
+              <p class="hover-event">Company</p>
+              <img id="company-dropdown-arrow" src="images/icon-arrow-down.svg" alt="Arrow Down">
+            </div>
+            <div class="company-links hide">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+            <a class="hover-event" href="#">Careers</a>
+            <a class="hover-event" href="#">About</a>
+          </div>
+          <div class="access-btn">
+            <button id="login-btn">Login</button>
+            <button id="register-btn">Register</button>
+          </div>
+        </div>
+      <div class="mobile-menu">
+        <img id="icon-menu" src="images/icon-menu.svg" alt="Menu Icon">
+      </div>
+    </nav>
+  </header>
+  <main class="main-content">
+    <div class="text-container">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button id="learn-more-btn">Learn more</button>
+      <div class="clients-container">
+        <img src="images/client-databiz.svg" alt="Databiz Logo">
+        <img src="images/client-audiophile.svg" alt="AudioPhile Logo">
+        <img src="images/client-meet.svg" alt="Meet Logo">
+        <img src="images/client-maker.svg" alt="Maker Logo">
+      </div>
+  </div>
+    <div class="banner-container"></div>
+  </main>
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://aslinsjr.github.io/my-web-site/" target="_blank">Alexandre Lins</a>.
+    </div>
+  </footer>
+  <div class="menu-mobile-background"></div>
+</body>
+</html>
